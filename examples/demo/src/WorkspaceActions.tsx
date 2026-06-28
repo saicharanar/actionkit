@@ -1,4 +1,4 @@
-import { useCommandPalette, useRegisterAction } from "actionkit";
+import { useCommandPalette, useRegisterAction } from "react-actionkit";
 import type { FieldRefs } from "./demoTypes";
 
 interface WorkspaceActionsProps {

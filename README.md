@@ -5,7 +5,7 @@ ActionKit is a small headless React library for centralized application actions,
 Register an action once, then expose it through shortcuts, search, settings, menus, or any UI you build yourself.
 
 ```tsx
-import { ActionKitProvider, useRegisterAction } from "actionkit";
+import { ActionKitProvider, useRegisterAction } from "react-actionkit";
 
 function SaveAction() {
   useRegisterAction({
@@ -33,7 +33,7 @@ ActionKit ships no styled UI. Build your own command palette with `useCommandPal
 ## Install
 
 ```sh
-npm install actionkit
+npm install react-actionkit
 ```
 
 React and React DOM are peer dependencies.
@@ -47,7 +47,7 @@ import {
   useCommandPalette,
   useRegisterAction,
   useShortcutBindings
-} from "actionkit";
+} from "react-actionkit";
 ```
 
 ### Provider

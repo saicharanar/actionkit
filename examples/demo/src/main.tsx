@@ -1,6 +1,6 @@
 import { StrictMode, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { ActionKitProvider, createLocalStorageAdapter } from "actionkit";
+import { ActionKitProvider, createLocalStorageAdapter } from "react-actionkit";
 import { ActivityFeed } from "./ActivityFeed";
 import { AppHeader } from "./AppHeader";
 import { CommandPaletteOverlay } from "./CommandPaletteOverlay";

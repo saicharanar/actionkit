@@ -13,7 +13,7 @@
     "moduleResolution": "Bundler",
     "baseUrl": ".",
     "paths": {
-      "actionkit": ["src/index.ts"]
+      "react-actionkit": ["src/index.ts"]
     },
     "resolveJsonModule": true,
     "isolatedModules": true,

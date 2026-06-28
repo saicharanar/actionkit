@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      actionkit: fileURLToPath(new URL("../../src/index.ts", import.meta.url))
+      "react-actionkit": fileURLToPath(new URL("../../src/index.ts", import.meta.url))
     }
   },
   server: {

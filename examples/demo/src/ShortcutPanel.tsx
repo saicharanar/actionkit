@@ -1,4 +1,4 @@
-import { useActions, useShortcutBindings } from "actionkit";
+import { useActions, useShortcutBindings } from "react-actionkit";
 
 export function ShortcutPanel() {
   const actions = useActions();

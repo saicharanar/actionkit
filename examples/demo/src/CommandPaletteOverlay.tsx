@@ -1,5 +1,5 @@
 import { useState, type KeyboardEvent } from "react";
-import { useCommandPalette, useShortcutBindings } from "actionkit";
+import { useCommandPalette, useShortcutBindings } from "react-actionkit";
 
 export function CommandPaletteOverlay() {
   const { actions, closePalette, executeAction, open, query, setQuery } = useCommandPalette();

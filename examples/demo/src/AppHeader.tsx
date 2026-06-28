@@ -1,4 +1,4 @@
-import { useCommandPalette } from "actionkit";
+import { useCommandPalette } from "react-actionkit";
 
 export function AppHeader() {
   const { openPalette } = useCommandPalette();

@@ -1,4 +1,4 @@
-import { ActionKitProvider, useCommandPalette, useRegisterAction } from "actionkit";
+import { ActionKitProvider, useCommandPalette, useRegisterAction } from "react-actionkit";
 
 function saveDocument() {
   // Replace this with application-specific save logic.
