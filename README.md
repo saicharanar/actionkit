@@ -121,6 +121,6 @@ npm install
 npm run demo
 ```
 
-Then open `http://127.0.0.1:5173`.
+Then open `http://localhost:5173`.
 
 The demo is intentionally styled in the example app only. The library does not ship CSS or visual components.

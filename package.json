@@ -32,7 +32,7 @@
   "scripts": {
     "build": "vite build",
     "ci": "npm run typecheck && npm run test && npm run build && npm audit",
-    "demo": "vite --config examples/demo/vite.config.ts --host 127.0.0.1",
+    "demo": "vite --config examples/demo/vite.config.ts --host localhost",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run typecheck && npm run test && npm run build"
