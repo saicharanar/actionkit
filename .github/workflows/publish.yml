@@ -60,8 +60,6 @@ jobs:
       - name: Publish new version
         if: steps.package-version.outputs.published == 'false'
         run: npm publish --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Skip existing version
         if: steps.package-version.outputs.published == 'true'

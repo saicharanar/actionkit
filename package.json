@@ -1,6 +1,6 @@
 {
   "name": "react-actionkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Headless React actions, keyboard shortcuts, and command palette state.",
   "type": "module",
   "license": "MIT",
